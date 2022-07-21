@@ -13,6 +13,9 @@
         margin-bottom: 0.5rem;
         display: block;
     }
+    &Invalid {
+        background-color: #fa7e8f;  
+    }
     & input {
         width: 80%;
         padding: 0.2rem;
@@ -26,6 +29,8 @@
         }
     }
 }
+
+
 
 .actions {
    text-align: end;
@@ -42,4 +47,9 @@
     border: 1px solid #a2d2ff;
     box-shadow: 2px 2px #888888;
    }
+}
+
+.error {
+    color: red;
+    font-size: 0.6rem;
 }
